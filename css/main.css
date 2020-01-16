@@ -1977,6 +1977,12 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.footer-social a i:hover {
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
 .primary-btn {
   line-height: 42px;
   padding-left: 30px;
