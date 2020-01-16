@@ -2374,8 +2374,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-project img:hover {
-  cursor: pointer;
   transform: scale(0.9);
+}
+
+.single-service img {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-service img:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 800px) {
@@ -2400,7 +2410,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-feature:hover {
-  cursor: pointer;
   color: #fff;
 }
 
